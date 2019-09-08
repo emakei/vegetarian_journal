@@ -1,38 +1,48 @@
 [
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/2b0/gazetaveg_201907_ver25_150dpi.pdf",
-    "title": "Газета Vegetarian (выпуск 49, июль 2019)",
-    "imgURL": "https://vegjournal.com/upload/iblock/435/VEGETARIAN_cover_july_preview.jpg"
+    "pdfURL": "",
+    "imgURL": "https://vegjournal.com/upload/iblock/4c3/VEGETARIAN_cover_september.jpg",
+    "title": "Газета Vegetarian (выпуск 51, сентябрь 2019)"
   },
   {
+    "pdfURL": "https://vegjournal.com/upload/iblock/dfa/gazetaveg_2019_08_ver17_150dpi.pdf",
+    "imgURL": "https://vegjournal.com/upload/iblock/640/VEGETARIAN_cover_august_v2.jpg",
+    "title": "Газета Vegetarian (выпуск 50, август 2019)"
+  },
+  {
+    "title": "Газета Vegetarian (выпуск 49, июль 2019)",
+    "imgURL": "https://vegjournal.com/upload/iblock/435/VEGETARIAN_cover_july_preview.jpg",
+    "pdfURL": "https://vegjournal.com/upload/iblock/2b0/gazetaveg_201907_ver25_150dpi.pdf"
+  },
+  {
+    "pdfURL": "https://vegjournal.com/upload/iblock/ac9/gazetaveg_20190_ver15_150dpi.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/d6b/1111.jpg",
-    "title": "Газета Vegetarian (выпуск 48, июнь 2019)",
-    "pdfURL": "https://vegjournal.com/upload/iblock/ac9/gazetaveg_20190_ver15_150dpi.pdf"
+    "title": "Газета Vegetarian (выпуск 48, июнь 2019)"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/2e3/gazetaveg_201905_ver15_150dpi.pdf",
-    "title": "Газета Vegetarian (выпуск 47, май 2019)",
-    "imgURL": "https://vegjournal.com/upload/iblock/e32/0001-5.jpg"
+    "imgURL": "https://vegjournal.com/upload/iblock/e32/0001-5.jpg",
+    "title": "Газета Vegetarian (выпуск 47, май 2019)"
   },
   {
-    "title": "Газета Vegetarian (выпуск 46, апрель 2019)",
+    "pdfURL": "https://vegjournal.com/upload/iblock/6ca/gazetaveg_201904_ver14_150dpi.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/cef/VEGETARIAN_04_2019_oblogka.jpg",
-    "pdfURL": "https://vegjournal.com/upload/iblock/6ca/gazetaveg_201904_ver14_150dpi.pdf"
+    "title": "Газета Vegetarian (выпуск 46, апрель 2019)"
   },
   {
-    "imgURL": "https://vegjournal.com/upload/iblock/c1a/VEGETARIAN_oblogka_1.jpg",
+    "pdfURL": "https://vegjournal.com/upload/iblock/625/gazetaveg_201903_ver16_150dpi.pdf",
     "title": "Газета Vegetarian (выпуск 45, март 2019)",
-    "pdfURL": "https://vegjournal.com/upload/iblock/625/gazetaveg_201903_ver16_150dpi.pdf"
+    "imgURL": "https://vegjournal.com/upload/iblock/c1a/VEGETARIAN_oblogka_1.jpg"
   },
   {
-    "title": "Газета Vegetarian (выпуск 44, февраль 2019)",
+    "pdfURL": "https://vegjournal.com/upload/iblock/035/gazetaveg_201902_ver15_150dpi.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/c1c/VEGETARIAN_02_2019_oblogka.jpg",
-    "pdfURL": "https://vegjournal.com/upload/iblock/035/gazetaveg_201902_ver15_150dpi.pdf"
+    "title": "Газета Vegetarian (выпуск 44, февраль 2019)"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/340/gazetaveg_201901_ver14_150dpi.pdf",
+    "imgURL": "https://vegjournal.com/upload/iblock/1e7/%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C_2019_%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_1.jpg",
     "title": "Газета Vegetarian (выпуск 43, январь 2019)",
-    "imgURL": "https://vegjournal.com/upload/iblock/1e7/%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C_2019_%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_1.jpg"
+    "pdfURL": "https://vegjournal.com/upload/iblock/340/gazetaveg_201901_ver14_150dpi.pdf"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/d8d/gazetaveg_201812_ver17_150dpi.pdf",
@@ -40,9 +50,9 @@
     "imgURL": "https://vegjournal.com/upload/iblock/f72/%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8C_2018_%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%BD%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg"
   },
   {
+    "pdfURL": "https://vegjournal.com/upload/iblock/6c0/gazetaveg_201811_ver18_150dpi.pdf",
     "title": " Газета Vegetarian (выпуск 41, ноябрь 2018)",
-    "imgURL": "https://vegjournal.com/upload/iblock/bc3/0001-3.jpg",
-    "pdfURL": "https://vegjournal.com/upload/iblock/6c0/gazetaveg_201811_ver18_150dpi.pdf"
+    "imgURL": "https://vegjournal.com/upload/iblock/bc3/0001-3.jpg"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/21a/gazetaveg_201810_ver28_150dpi.pdf",
@@ -50,9 +60,9 @@
     "imgURL": "https://vegjournal.com/upload/iblock/076/%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_2222_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%201%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/dd5/gazetaveg_201709_ver13_150dpi.pdf",
+    "title": "Газета Vegetarian (выпуск 39,сентябрь 2018)",
     "imgURL": "https://vegjournal.com/upload/iblock/bfa/%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_vegjournal_%201_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%201%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F%204.jpg",
-    "title": "Газета Vegetarian (выпуск 39,сентябрь 2018)"
+    "pdfURL": "https://vegjournal.com/upload/iblock/dd5/gazetaveg_201709_ver13_150dpi.pdf"
   },
   {
     "title": "Газета Vegetarian (выпуск 38, август 2018)",
@@ -60,49 +70,49 @@
     "pdfURL": "https://vegjournal.com/upload/iblock/13b/gazetaveg_201708_ver08_150dpi.pdf"
   },
   {
+    "pdfURL": "https://vegjournal.com/upload/iblock/f42/gazetaveg_20180701_150dpi.pdf",
     "title": "Газета Vegetarian (выпуск 37, июль 2018)",
-    "imgURL": "https://vegjournal.com/upload/iblock/ffa/%D0%9E%D0%A8%D0%90%D0%9E%D0%AB%D0%A9.jpg",
-    "pdfURL": "https://vegjournal.com/upload/iblock/f42/gazetaveg_20180701_150dpi.pdf"
+    "imgURL": "https://vegjournal.com/upload/iblock/ffa/%D0%9E%D0%A8%D0%90%D0%9E%D0%AB%D0%A9.jpg"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/edc/gazetaveg_20180601_ver06_150dpi.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/436/gdfgd.jpg",
-    "title": "Газета Vegetarian (выпуск 36, июнь 2018)"
+    "title": "Газета Vegetarian (выпуск 36, июнь 2018)",
+    "pdfURL": "https://vegjournal.com/upload/iblock/edc/gazetaveg_20180601_ver06_150dpi.pdf"
   },
   {
-    "imgURL": "https://vegjournal.com/upload/iblock/b13/ASHOT%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg",
+    "pdfURL": "https://vegjournal.com/upload/iblock/d6c/gazetaveg_20180501_ver20_150dpi.pdf",
     "title": "Газета Vegetarian (выпуск 35, май 2018)",
-    "pdfURL": "https://vegjournal.com/upload/iblock/d6c/gazetaveg_20180501_ver20_150dpi.pdf"
+    "imgURL": "https://vegjournal.com/upload/iblock/b13/ASHOT%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/d69/gazetaveg_20180401_ver21_150dpi.pdf",
-    "title": "Газета Vegetarian (выпуск 34, апрель 2018)",
-    "imgURL": "https://vegjournal.com/upload/iblock/b0a/%D1%84%D0%B8%D0%BD%D0%B0%D0%BB%20_%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C.jpg"
+    "imgURL": "https://vegjournal.com/upload/iblock/b0a/%D1%84%D0%B8%D0%BD%D0%B0%D0%BB%20_%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C.jpg",
+    "title": "Газета Vegetarian (выпуск 34, апрель 2018)"
   },
   {
-    "title": "Газета Vegetarian (выпуск 33, март 2018)",
     "imgURL": "https://vegjournal.com/upload/iblock/663/mart.jpg",
+    "title": "Газета Vegetarian (выпуск 33, март 2018)",
     "pdfURL": "https://vegjournal.com/upload/iblock/4cb/gazetaveg_20180301_ver13_150dpi.pdf"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/895/gazetaveg_20180201_ver18_150dpi.pdf",
-    "title": "Газета Vegetarian (выпуск 32, февраль 2018)",
-    "imgURL": "https://vegjournal.com/upload/iblock/03a/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202018-02-01%20%D0%B2%2017.55.09.png"
+    "imgURL": "https://vegjournal.com/upload/iblock/03a/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202018-02-01%20%D0%B2%2017.55.09.png",
+    "title": "Газета Vegetarian (выпуск 32, февраль 2018)"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/ffd/VegGazeta31_январь_ver20_300dpi.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/634/veg_2018.jpg",
-    "title": "Газета Vegetarian (выпуск 31, январь 2018)"
+    "title": "Газета Vegetarian (выпуск 31, январь 2018)",
+    "pdfURL": "https://vegjournal.com/upload/iblock/ffd/VegGazeta31_январь_ver20_300dpi.pdf"
   },
   {
+    "pdfURL": "https://vegjournal.com/upload/iblock/1e8/VegGazeta30_декабрь_ver16_150dpi.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/924/sia.png",
-    "title": "Газета Vegetarian (выпуск 30, декабрь 2017)",
-    "pdfURL": "https://vegjournal.com/upload/iblock/1e8/VegGazeta30_декабрь_ver16_150dpi.pdf"
+    "title": "Газета Vegetarian (выпуск 30, декабрь 2017)"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/3ee/VegGazeta29_ноябрь_ver15_150dpi.pdf",
+    "imgURL": "https://vegjournal.com/upload/iblock/1de/6%D1%80%D0%BB%D1%80%D0%BB.png",
     "title": "Газета Vegetarian (выпуск 29, ноябрь 2017)",
-    "imgURL": "https://vegjournal.com/upload/iblock/1de/6%D1%80%D0%BB%D1%80%D0%BB.png"
+    "pdfURL": "https://vegjournal.com/upload/iblock/3ee/VegGazeta29_ноябрь_ver15_150dpi.pdf"
   },
   {
     "title": "Газета VEGETARIAN (выпуск 28, октябрь 2017)",
@@ -111,8 +121,8 @@
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/e78/VegGazeta27_сентябрь_ver17_150dpi.pdf",
-    "imgURL": "https://vegjournal.com/upload/iblock/dfa/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202017-09-01%20%D0%B2%2011.36.42.jpg",
-    "title": "Газета VEGETARIAN (выпуск 27, сентябрь 2017)"
+    "title": "Газета VEGETARIAN (выпуск 27, сентябрь 2017)",
+    "imgURL": "https://vegjournal.com/upload/iblock/dfa/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202017-09-01%20%D0%B2%2011.36.42.jpg"
   },
   {
     "imgURL": "https://vegjournal.com/upload/iblock/dd8/avgust.png",
@@ -120,18 +130,18 @@
     "pdfURL": "https://vegjournal.com/upload/iblock/646/VegGazeta26_август_150dpi.pdf"
   },
   {
+    "pdfURL": "https://vegjournal.com/upload/iblock/875/gazetaveg_20170701_ver04_150dpi.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/44f/%D0%B8%D1%8E%D0%BB%D1%8C_26.jpg",
-    "title": "Газета VEGETARIAN (выпуск 25, июль 2017)",
-    "pdfURL": "https://vegjournal.com/upload/iblock/875/gazetaveg_20170701_ver04_150dpi.pdf"
+    "title": "Газета VEGETARIAN (выпуск 25, июль 2017)"
   },
   {
-    "title": "Газета VEGETARIAN (выпуск 24, июнь 2017)",
+    "pdfURL": "https://vegjournal.com/upload/iblock/4fd/gazetaveg_20170601_150dpi.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/59b/%D0%B8%D1%8E%D0%BD%D1%8C_.jpg",
-    "pdfURL": "https://vegjournal.com/upload/iblock/4fd/gazetaveg_20170601_150dpi.pdf"
+    "title": "Газета VEGETARIAN (выпуск 24, июнь 2017)"
   },
   {
-    "imgURL": "https://vegjournal.com/upload/iblock/3bb/%D0%BC%D0%B0%D0%B9_last__last_%D1%81%D1%81%D0%B0%D0%B9%D1%82.jpg",
     "title": "Газета VEGETARIAN (выпуск 23, май 2017)",
+    "imgURL": "https://vegjournal.com/upload/iblock/3bb/%D0%BC%D0%B0%D0%B9_last__last_%D1%81%D1%81%D0%B0%D0%B9%D1%82.jpg",
     "pdfURL": "https://vegjournal.com/upload/iblock/031/gazetaveg_20170501_150dpi.pdf"
   },
   {
@@ -140,9 +150,9 @@
     "pdfURL": "https://vegjournal.com/upload/iblock/a57/gazetaveg_20170401_ver28_150dpi.pdf"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/ea5/gazetaveg_20170301_ver16_150dpi.pdf",
+    "title": "Газета VEGETARIAN (выпуск 21, март 2017)",
     "imgURL": "https://vegjournal.com/upload/iblock/dfa/%D0%BC%D0%B0%D1%80%D1%82_%D0%BB%D0%B0%D1%81%D1%82_1.jpg",
-    "title": "Газета VEGETARIAN (выпуск 21, март 2017)"
+    "pdfURL": "https://vegjournal.com/upload/iblock/ea5/gazetaveg_20170301_ver16_150dpi.pdf"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/243/vegan_020_ver06_150dpi.pdf",
@@ -150,19 +160,19 @@
     "imgURL": "https://vegjournal.com/upload/iblock/6a4/new_fev.jpg"
   },
   {
-    "title": "Газета VEGETARIAN (выпуск 19, январь 2017)",
     "imgURL": "https://vegjournal.com/upload/iblock/1cd/new.jpg",
+    "title": "Газета VEGETARIAN (выпуск 19, январь 2017)",
     "pdfURL": "https://vegjournal.com/upload/iblock/2d4/vegan_019_ver12_150dpi.pdf"
   },
   {
-    "title": "Газета VEGETARIAN (выпуск 18, декабрь 2016)",
     "imgURL": "https://vegjournal.com/upload/iblock/066/y18%20%D0%94%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8C_%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA.jpg",
+    "title": "Газета VEGETARIAN (выпуск 18, декабрь 2016)",
     "pdfURL": "https://vegjournal.com/upload/iblock/329/vegan_018_ver09_150dpi.pdf"
   },
   {
+    "pdfURL": "https://vegjournal.com/upload/iblock/f98/vegan_017_16_ver26_150dpi-2.pdf",
     "title": "Газета VEGETARIAN (выпуск 17, ноябрь 2016)",
-    "imgURL": "https://vegjournal.com/upload/iblock/613/Moby_veg.jpg",
-    "pdfURL": "https://vegjournal.com/upload/iblock/f98/vegan_017_16_ver26_150dpi-2.pdf"
+    "imgURL": "https://vegjournal.com/upload/iblock/613/Moby_veg.jpg"
   },
   {
     "imgURL": "https://vegjournal.com/upload/iblock/1ca/hnanna.jpg",
@@ -170,59 +180,59 @@
     "pdfURL": "https://vegjournal.com/upload/iblock/315/vegan_016_16_ver09_300dpi.pdf"
   },
   {
-    "imgURL": "https://vegjournal.com/upload/iblock/ee9/15-%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-%D1%81%D0%B5%D0%BD%D1%82%D1%8F.jpg",
+    "pdfURL": "https://vegjournal.com/upload/iblock/459/vegan_015_150dpi.pdf",
     "title": "Газета VEGETARIAN (выпуск 15, сентябрь 2016)",
-    "pdfURL": "https://vegjournal.com/upload/iblock/459/vegan_015_150dpi.pdf"
+    "imgURL": "https://vegjournal.com/upload/iblock/ee9/15-%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-%D1%81%D0%B5%D0%BD%D1%82%D1%8F.jpg"
   },
   {
-    "title": "Газета VEGETARIAN (выпуск 14, август 2016)",
     "imgURL": "https://vegjournal.com/upload/iblock/644/Vegetarian_Olga_Shelest.png",
+    "title": "Газета VEGETARIAN (выпуск 14, август 2016)",
     "pdfURL": "https://vegjournal.com/upload/iblock/79b/Vegetariant14.pdf"
   },
   {
-    "title": "Газета VEGETARIAN (выпуск 13, июль 2016)",
+    "pdfURL": "https://vegjournal.com/upload/iblock/22b/vegan_013_16_01.pdf",
     "imgURL": "https://vegjournal.com/upload/iblock/de5/milovanov_oblojka.png",
-    "pdfURL": "https://vegjournal.com/upload/iblock/22b/vegan_013_16_01.pdf"
+    "title": "Газета VEGETARIAN (выпуск 13, июль 2016)"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/350/veg12_ver23.pdf",
-    "imgURL": "https://vegjournal.com/upload/iblock/623/%D0%B8%D1%8E%D0%BD%D1%8C_%D0%B3%D0%B0%D0%B7%D0%B5%D1%82%D0%B0.png",
-    "title": "Газета VEGETARIAN (выпуск 12, июнь 2016)"
+    "title": "Газета VEGETARIAN (выпуск 12, июнь 2016)",
+    "imgURL": "https://vegjournal.com/upload/iblock/623/%D0%B8%D1%8E%D0%BD%D1%8C_%D0%B3%D0%B0%D0%B7%D0%B5%D1%82%D0%B0.png"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/d75/vegazet 11 nomer.pdf",
-    "imgURL": "https://vegjournal.com/upload/iblock/897/veg_11.png",
-    "title": "Газета VEGETARIAN (выпуск 11, май 2016)"
+    "title": "Газета VEGETARIAN (выпуск 11, май 2016)",
+    "imgURL": "https://vegjournal.com/upload/iblock/897/veg_11.png"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/ee4/vegan_010_16_19 (1).pdf",
+    "title": "Газета VEGETARIAN (выпуск 10, апрель  2016)",
     "imgURL": "https://vegjournal.com/upload/iblock/16f/%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0f_%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C.jpg",
-    "title": "Газета VEGETARIAN (выпуск 10, апрель  2016)"
+    "pdfURL": "https://vegjournal.com/upload/iblock/ee4/vegan_010_16_19 (1).pdf"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/c89/vegan_09.pdf",
     "title": "Газета VEGETARIAN (выпуск 9, март 2016)",
-    "imgURL": "https://vegjournal.com/upload/iblock/3c8/%D0%B3%D0%B0%D0%B7%D0%B5%D1%82%D0%B0_vegetarian.png"
+    "imgURL": "https://vegjournal.com/upload/iblock/3c8/%D0%B3%D0%B0%D0%B7%D0%B5%D1%82%D0%B0_vegetarian.png",
+    "pdfURL": "https://vegjournal.com/upload/iblock/c89/vegan_09.pdf"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/765/vegan_008.pdf",
+    "title": "Газета VEGETARIAN (выпуск 8, февраль 2016)",
     "imgURL": "https://vegjournal.com/upload/iblock/053/vegetarian_8.png",
-    "title": "Газета VEGETARIAN (выпуск 8, февраль 2016)"
+    "pdfURL": "https://vegjournal.com/upload/iblock/765/vegan_008.pdf"
   },
   {
+    "pdfURL": "https://vegjournal.com/upload/iblock/a48/vegan_007_15_.pdf",
     "title": "Газета VEGETARIAN (выпуск 7, январь 2016)",
-    "imgURL": "https://vegjournal.com/upload/iblock/099/vegan_007_15_001.jpg",
-    "pdfURL": "https://vegjournal.com/upload/iblock/a48/vegan_007_15_.pdf"
+    "imgURL": "https://vegjournal.com/upload/iblock/099/vegan_007_15_001.jpg"
   },
   {
+    "pdfURL": "https://vegjournal.com/upload/iblock/f11/Vegan_006_15.pdf",
     "title": "Газета VEGETARIAN (выпуск 6, декабрь 2015)",
-    "imgURL": "https://vegjournal.com/upload/iblock/b54/vegetarian_gazeta.png",
-    "pdfURL": "https://vegjournal.com/upload/iblock/f11/Vegan_006_15.pdf"
+    "imgURL": "https://vegjournal.com/upload/iblock/b54/vegetarian_gazeta.png"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/a73/vegetarian_5.P01.pdf",
+    "imgURL": "https://vegjournal.com/upload/iblock/dd0/vegetarian_5.png",
     "title": "Газета VEGETARIAN (выпуск 5, ноябрь 2015)",
-    "imgURL": "https://vegjournal.com/upload/iblock/dd0/vegetarian_5.png"
+    "pdfURL": "https://vegjournal.com/upload/iblock/a73/vegetarian_5.P01.pdf"
   },
   {
     "pdfURL": "https://vegjournal.com/upload/iblock/03f/gazetaveg4_ver06-2.pdf",
@@ -230,59 +240,59 @@
     "title": "Газета VEGETARIAN (выпуск 4, октябрь 2015)"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/42c/VegetarianGazeta03_CC.pdf",
     "title": "Газета VEGETARIAN (выпуск 3, сентябрь 2015)",
-    "imgURL": "https://vegjournal.com/upload/iblock/66a/vegetarian_3.jpg"
+    "imgURL": "https://vegjournal.com/upload/iblock/66a/vegetarian_3.jpg",
+    "pdfURL": "https://vegjournal.com/upload/iblock/42c/VegetarianGazeta03_CC.pdf"
   },
   {
-    "title": "Газета VEGETARIAN (выпуск 2, август 2015)",
     "imgURL": "https://vegjournal.com/upload/iblock/f7e/gazeta_veg2.jpg",
+    "title": "Газета VEGETARIAN (выпуск 2, август 2015)",
     "pdfURL": "https://vegjournal.com/upload/iblock/cda/vegetarian_avgust_Sati.pdf"
   },
   {
-    "pdfURL": "https://vegjournal.com/upload/iblock/811/vegetarian_juny_wordscloud1.pdf",
+    "imgURL": "https://vegjournal.com/upload/iblock/b10/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202015-06-16%20%D0%B2%2012.03.40.png",
     "title": "Газета VEGETARIAN (выпуск 1, май 2015)",
-    "imgURL": "https://vegjournal.com/upload/iblock/b10/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202015-06-16%20%D0%B2%2012.03.40.png"
+    "pdfURL": "https://vegjournal.com/upload/iblock/811/vegetarian_juny_wordscloud1.pdf"
   },
   {
-    "title": "Журнал «VEGETARIAN» май-июнь 2014",
     "imgURL": "https://vegjournal.com/upload/iblock/d69/Voevoda.jpg",
+    "title": "Журнал «VEGETARIAN» май-июнь 2014",
     "pdfURL": ""
   },
   {
+    "pdfURL": "",
     "imgURL": "https://vegjournal.com/upload/iblock/8de/unnamed%20%281%29.jpg",
-    "title": "Журнал «VEGETARIAN» март-апрель 2014",
-    "pdfURL": ""
+    "title": "Журнал «VEGETARIAN» март-апрель 2014"
   },
   {
+    "pdfURL": "",
     "imgURL": "https://vegjournal.com/upload/iblock/d6d/BXegW8sb4T0.jpg",
-    "title": "Журнал «VEGETARIAN» январь-февраль 2014",
-    "pdfURL": ""
+    "title": "Журнал «VEGETARIAN» январь-февраль 2014"
   },
   {
-    "pdfURL": "",
     "imgURL": "https://vegjournal.com/upload/iblock/c72/cover-nov.jpg",
-    "title": "Журнал «VEGETARIAN» ноябрь 2013"
-  },
-  {
-    "pdfURL": "",
-    "title": "Журнал «VEGETARIAN» сентябрь 2013",
-    "imgURL": "https://vegjournal.com/upload/iblock/25b/cover_tsallati_new.png"
-  },
-  {
-    "pdfURL": "",
-    "title": "Журнал «VEGETARIAN» август 2013",
-    "imgURL": "https://vegjournal.com/upload/iblock/d9b/veg_aug.png"
-  },
-  {
-    "pdfURL": "",
-    "imgURL": "https://vegjournal.com/upload/iblock/1f8/june-july-cover.png",
-    "title": "Журнал «VEGETARIAN» июнь-июль 2013"
-  },
-  {
-    "imgURL": "https://vegjournal.com/upload/iblock/34a/veg_COVER_may.jpg",
-    "title": "Журнал «VEGETARIAN» май 2013",
+    "title": "Журнал «VEGETARIAN» ноябрь 2013",
     "pdfURL": ""
+  },
+  {
+    "title": "Журнал «VEGETARIAN» сентябрь 2013",
+    "imgURL": "https://vegjournal.com/upload/iblock/25b/cover_tsallati_new.png",
+    "pdfURL": ""
+  },
+  {
+    "imgURL": "https://vegjournal.com/upload/iblock/d9b/veg_aug.png",
+    "title": "Журнал «VEGETARIAN» август 2013",
+    "pdfURL": ""
+  },
+  {
+    "imgURL": "https://vegjournal.com/upload/iblock/1f8/june-july-cover.png",
+    "title": "Журнал «VEGETARIAN» июнь-июль 2013",
+    "pdfURL": ""
+  },
+  {
+    "pdfURL": "",
+    "title": "Журнал «VEGETARIAN» май 2013",
+    "imgURL": "https://vegjournal.com/upload/iblock/34a/veg_COVER_may.jpg"
   },
   {
     "imgURL": "https://vegjournal.com/upload/iblock/45a/veg_COVER_february.png",
@@ -295,14 +305,14 @@
     "pdfURL": ""
   },
   {
-    "title": "Журнал «VEGETARIAN» февраль 2013",
     "imgURL": "https://vegjournal.com/upload/iblock/952/veg18.jpg",
+    "title": "Журнал «VEGETARIAN» февраль 2013",
     "pdfURL": ""
   },
   {
     "pdfURL": "",
-    "imgURL": "https://vegjournal.com/upload/iblock/c28/covernew.jpg",
-    "title": "Журнал «VEGETARIAN» декабрь 2012 - январь 2013"
+    "title": "Журнал «VEGETARIAN» декабрь 2012 - январь 2013",
+    "imgURL": "https://vegjournal.com/upload/iblock/c28/covernew.jpg"
   },
   {
     "imgURL": "https://vegjournal.com/upload/iblock/78c/1-1.jpg",
@@ -315,19 +325,19 @@
     "pdfURL": ""
   },
   {
+    "pdfURL": "",
     "title": "Журнал «VEGETARIAN» сентябрь 2012",
-    "imgURL": "https://vegjournal.com/upload/iblock/b72/cover.png",
+    "imgURL": "https://vegjournal.com/upload/iblock/b72/cover.png"
+  },
+  {
+    "imgURL": "https://vegjournal.com/upload/iblock/5ab/1.png",
+    "title": "Журнал «VEGETARIAN» август 2012",
     "pdfURL": ""
   },
   {
-    "pdfURL": "",
-    "title": "Журнал «VEGETARIAN» август 2012",
-    "imgURL": "https://vegjournal.com/upload/iblock/5ab/1.png"
-  },
-  {
-    "pdfURL": "",
+    "imgURL": "https://vegjournal.com/upload/iblock/3ec/1.png",
     "title": "Журнал «VEGETARIAN» июль 2012",
-    "imgURL": "https://vegjournal.com/upload/iblock/3ec/1.png"
+    "pdfURL": ""
   },
   {
     "pdfURL": "",
@@ -335,19 +345,19 @@
     "title": "Журнал «VEGETARIAN» июнь 2012"
   },
   {
-    "title": "Журнал «VEGETARIAN» май 2012",
-    "imgURL": "https://vegjournal.com/upload/iblock/951/1.jpg",
-    "pdfURL": ""
-  },
-  {
-    "imgURL": "https://vegjournal.com/upload/iblock/dc5/obl2.png",
-    "title": "Журнал «VEGETARIAN» апрель 2012",
-    "pdfURL": ""
-  },
-  {
     "pdfURL": "",
+    "title": "Журнал «VEGETARIAN» май 2012",
+    "imgURL": "https://vegjournal.com/upload/iblock/951/1.jpg"
+  },
+  {
+    "title": "Журнал «VEGETARIAN» апрель 2012",
+    "imgURL": "https://vegjournal.com/upload/iblock/dc5/obl2.png",
+    "pdfURL": ""
+  },
+  {
     "title": "Журнал «VEGETARIAN» март 2012",
-    "imgURL": "https://vegjournal.com/upload/iblock/238/8.jpg"
+    "imgURL": "https://vegjournal.com/upload/iblock/238/8.jpg",
+    "pdfURL": ""
   },
   {
     "imgURL": "https://vegjournal.com/upload/iblock/0e2/7.jpg",
@@ -355,14 +365,14 @@
     "pdfURL": ""
   },
   {
-    "imgURL": "https://vegjournal.com/upload/iblock/588/6.jpg",
+    "pdfURL": "",
     "title": "Журнал «VEGETARIAN» декабрь 2011",
-    "pdfURL": ""
+    "imgURL": "https://vegjournal.com/upload/iblock/588/6.jpg"
   },
   {
     "pdfURL": "",
-    "imgURL": "https://vegjournal.com/upload/iblock/076/5.jpg",
-    "title": "Журнал «VEGETARIAN» №5"
+    "title": "Журнал «VEGETARIAN» №5",
+    "imgURL": "https://vegjournal.com/upload/iblock/076/5.jpg"
   },
   {
     "pdfURL": "",
@@ -380,8 +390,8 @@
     "imgURL": "https://vegjournal.com/upload/iblock/64f/2.jpg"
   },
   {
-    "pdfURL": "",
     "title": "Журнал «Джаганнат Экспресс» №1",
-    "imgURL": "https://vegjournal.com/upload/iblock/2f3/1.jpg"
+    "imgURL": "https://vegjournal.com/upload/iblock/2f3/1.jpg",
+    "pdfURL": ""
   }
 ]
