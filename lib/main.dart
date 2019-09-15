@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: MyHomePage(title: 'Газета VEGETARIAN'),
+      home: MyHomePage(
+        title: 'Газета VEGETARIAN',
+        contentURL: 'https://https://raw.githubusercontent.com/ymakei/vegetarian_journal/master/assets/journal.json',
+      ),
     );
   }
 }
@@ -23,9 +26,11 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key,
     this.title,
+    this.contentURL,
   }) : super(key: key);
 
   final String title;
+  final String contentURL;
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -33,8 +38,20 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  var contentFile;
+  bool isNewContentAvailable = false;
+
   @override
   Widget build(BuildContext context) {
+
+    DefaultCacheManager().getFileFromCache(widget.contentURL).then((file) {
+        if (file != null) {
+          contentFile = file.file;
+          setState(() {
+              isNewContentAvailable = true;
+          });
+        }
+    });
 
     return Scaffold(
       appBar: AppBar(
@@ -44,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: FutureBuilder(
           future: DefaultAssetBundle
               .of(context)
-          .loadString('assets/journal.json'),
+          .loadString(isNewContentAvailable ? contentFile.path : 'assets/journal.json'),
           builder: (context, snapshot) {
             // Read json-data
             var listData = json.decode(snapshot.data.toString());
@@ -212,6 +229,7 @@ class _JournalCardState extends State<JournalCard> {
               }
           )
         ],
+        // widget.isAvailable ?
       ) : titleSection // Если журнал не доступен, показываем только название
     );
 

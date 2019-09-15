@@ -6,8 +6,6 @@ use JSON::Fast;
 my $domain = 'https://vegjournal.com';
 my @records;
 
-my $fh = open "../assets/journal.json", :w;
-
 my $main-page = LibCurl::Easy.new(URL => "$domain/issues/").perform.content(enc => 'utf-8');
 my @navigation-block = parse-html($main-page, :TAG<div>, :class<navigation-pages>);
 
@@ -42,6 +40,17 @@ for @pages.values {
         @records.push: %record;
     }
 }
+
+my $fh = open "../assets/journal.json", :rw;
+my $fh-news = open "../assets/news.txt", :w;
+
+my @prev-records = from-json($fh.IO.slurp);
+
+if @prev-records[0].elems < @records.elems {
+    $fh-news.print: "- Новых выпусков: $(@records.elems - @prev-records[0].elems)\n";
+}
+
+$fh-news.close;
 
 $fh.print: to-json(@records);
 $fh.close;
