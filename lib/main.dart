@@ -66,21 +66,35 @@ class _MyHomePageState extends State<MyHomePage> {
             // Read json-data
             var listData = json.decode(snapshot.data.toString());
 
-            return ListView.builder(
-              itemBuilder: (BuildContext context, int index) {
-                return JournalCard(
-                  titleText: listData[index]['title'],
-                  pdfURL: listData[index]['pdfURL'],
-                  imgURL: listData[index]['imgURL'],
-                  isAvailable: listData[index]['pdfURL'].toString().isNotEmpty,
-                );
-              },
-              itemCount: listData == null ? 0 : listData.length,
+            return RefreshIndicator(
+              onRefresh: _refreshListView ,
+              child: ListView.builder(
+                physics: const AlwaysScrollableScrollPhysics(),
+                itemBuilder: (BuildContext context, int index) {
+                  return JournalCard(
+                    titleText: listData[index]['title'],
+                    pdfURL: listData[index]['pdfURL'],
+                    imgURL: listData[index]['imgURL'],
+                    isAvailable: listData[index]['pdfURL'].toString().isNotEmpty,
+                  );
+                },
+                itemCount: listData == null ? 0 : listData.length,
+              )
             );
           },
         ),
       ),
     );
+  }
+
+  Future<Null> _refreshListView() async {
+    DefaultCacheManager().downloadFile(widget.contentURL).then(
+      (file) {
+        contentFile = file.file;
+        setState(() {
+            isNewContentAvailable = true;
+        });
+    });
   }
 }
 
