@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       home: MyHomePage(
         title: 'Газета VEGETARIAN',
-        contentURL: 'https://https://raw.githubusercontent.com/ymakei/vegetarian_journal/master/assets/journal.json',
+        contentURL: 'https://raw.githubusercontent.com/ymakei/vegetarian_journal/master/assets/journal.json',
       ),
     );
   }
