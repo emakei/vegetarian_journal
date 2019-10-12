@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'dart:convert';
+import 'dart:async';
+import 'dart:io';
 import 'package:share/share.dart';
 import 'package:open_file/open_file.dart';
+import 'package:path_provider/path_provider.dart';
 
 void main() => runApp(MyApp());
 
@@ -44,7 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-    DefaultCacheManager().getFileFromCache(widget.contentURL).then((file) {
+    DefaultCacheManager().getFileFromCache(widget.contentURL).then(
+      (file) {
         if (file != null) {
           contentFile = file.file;
           setState(() {
@@ -60,8 +64,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         child: FutureBuilder(
           future: DefaultAssetBundle
-              .of(context)
-          .loadString(isNewContentAvailable ? contentFile.path : 'assets/journal.json'),
+            .of(context)
+            .loadString(isNewContentAvailable ? contentFile.path : 'assets/journal.json'),
           builder: (context, snapshot) {
             // Read json-data
             var listData = json.decode(snapshot.data.toString());
@@ -88,13 +92,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<Null> _refreshListView() async {
-    DefaultCacheManager().downloadFile(widget.contentURL).then(
-      (file) {
-        contentFile = file.file;
-        setState(() {
-            isNewContentAvailable = true;
-        });
-    });
+    contentFile = await DefaultCacheManager().getSingleFile(widget.contentURL);
+    setState(() => isNewContentAvailable = true);
   }
 }
 
@@ -200,13 +199,14 @@ class _JournalCardState extends State<JournalCard> {
       child: widget.isAvailable ? Column( // Если журнал доступен, показываем кнопки управления
         children: [
           titleSection,
-          _buildButtonColumn(Icons.chrome_reader_mode,
-              'Читать',
-              isPDFLoaded,
-                  () {
-                if (isPDFLoaded)
-                  OpenFile.open(pdfFile.path);
-              }
+          _buildButtonColumn(
+            Icons.chrome_reader_mode,
+            'Читать',
+            isPDFLoaded,
+            () {
+              if (isPDFLoaded)
+              OpenFile.open(pdfFile.path);
+            }
           ),
           _buildButtonColumn(
               isLoadingPushed ? Icons.autorenew : isPDFLoaded ? Icons.remove_circle : Icons.file_download,
@@ -221,13 +221,13 @@ class _JournalCardState extends State<JournalCard> {
                       });
                     }
                     else if(widget.isAvailable) {
-                      DefaultCacheManager().downloadFile(widget.pdfURL).then((
-                          file) {
-                        pdfFile = file.file;
-                        setState(() {
-                          isPDFLoaded = pdfFile != null;
-                          isLoadingPushed = false;
-                        });
+                      DefaultCacheManager().downloadFile(widget.pdfURL).then(
+                        (file) {
+                          pdfFile = file.file;
+                          setState(() {
+                              isPDFLoaded = pdfFile != null;
+                              isLoadingPushed = false;
+                          });
                       });
                       setState(() {
                         isLoadingPushed = true;
@@ -235,12 +235,13 @@ class _JournalCardState extends State<JournalCard> {
                     }
                   }
           ),
-          _buildButtonColumn(Icons.share,
-              'Поделиться',
-              true,
-                  () {
-                Share.share(widget.pdfURL,);
-              }
+          _buildButtonColumn(
+            Icons.share,
+            'Поделиться',
+            true,
+            () {
+              Share.share(widget.pdfURL,);
+            }
           )
         ],
         // widget.isAvailable ?
