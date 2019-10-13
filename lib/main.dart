@@ -7,8 +7,48 @@ import 'dart:io';
 import 'package:share/share.dart';
 import 'package:open_file/open_file.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:http/http.dart' as http;
 
 void main() => runApp(MyApp());
+
+class JournalStorage {
+  Future<String> get _localPath async {
+    final directory = await getApplicationDocumentsDirectory();
+
+    return directory.path;
+  }
+
+  Future<File> get _localFile async {
+    final path = await _localPath;
+    return File('$path/journal.json');
+  }
+
+  Future<File> get localFile async {
+    final path = await _localPath;
+    return File('$path/journal.json');
+  }
+
+  Future<String> readJournal() async {
+    try {
+      final file = await _localFile;
+
+      // Read the file
+      String contents = await file.readAsString();
+
+      return contents;
+    } catch (e) {
+      // If encountering an error, return 0
+      return '';
+    }
+  }
+
+  Future<File> writeJournal(String data) async {
+    final file = await _localFile;
+
+    // Write the file
+    return file.writeAsString(data);
+  }
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -21,19 +61,23 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(
         title: 'Газета VEGETARIAN',
         contentURL: 'https://raw.githubusercontent.com/ymakei/vegetarian_journal/master/assets/journal.json',
+        storage: JournalStorage(),
       ),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key,
-    this.title,
-    this.contentURL,
+  MyHomePage(
+    {Key key,
+      this.title,
+      this.contentURL,
+      @required this.storage,
   }) : super(key: key);
 
   final String title;
   final String contentURL;
+  final JournalStorage storage;
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -42,20 +86,22 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   var contentFile;
-  bool isNewContentAvailable = false;
+  String _journalPath = 'assets/journal.json';
+
+  @override
+  void initState() {
+    super.initState();
+
+    widget.storage.localFile.then(
+      (File file) {
+        // setState(() {
+        //     _journalPath = file.path;
+        // });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
-
-    DefaultCacheManager().getFileFromCache(widget.contentURL).then(
-      (file) {
-        if (file != null) {
-          contentFile = file.file;
-          setState(() {
-              isNewContentAvailable = true;
-          });
-        }
-    });
 
     return Scaffold(
       appBar: AppBar(
@@ -65,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: FutureBuilder(
           future: DefaultAssetBundle
             .of(context)
-            .loadString(isNewContentAvailable ? contentFile.path : 'assets/journal.json'),
+            .loadString(_journalPath),
           builder: (context, snapshot) {
             // Read json-data
             var listData = json.decode(snapshot.data.toString());
@@ -92,9 +138,20 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<Null> _refreshListView() async {
-    contentFile = await DefaultCacheManager().getSingleFile(widget.contentURL);
-    setState(() => isNewContentAvailable = true);
+    final response = await http.get(widget.contentURL);
+
+    if (response.statusCode == 200) {
+      // If the call to the server was successful, parse the JSON.
+      widget.storage.writeJournal(response.body);
+      widget.storage.localFile.then(
+        (File file) {
+          setState(() {
+              _journalPath = file.path;
+          });
+      });
+    }
   }
+
 }
 
 class JournalCard extends StatefulWidget {
