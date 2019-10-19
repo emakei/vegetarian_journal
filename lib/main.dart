@@ -142,13 +142,18 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if (response.statusCode == 200) {
       // If the call to the server was successful, parse the JSON.
-      widget.storage.writeJournal(response.body);
-      widget.storage.localFile.then(
+      widget.storage.writeJournal(response.body).then(
         (File file) {
           setState(() {
               _journalPath = file.path;
           });
+        }
+      );
+      /*
+      widget.storage.localFile.then(
+        (File file) {
       });
+      */
     }
   }
 
