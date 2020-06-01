@@ -42,6 +42,12 @@ class JournalStorage {
     }
   }
 
+  Future<bool> get localFileSizeNonZero async {
+    final file = await _localFile;
+    var len = await file.length();
+    return len != 0;
+  }
+
   Future<File> writeJournal(String data) async {
     final file = await _localFile;
 
@@ -86,17 +92,18 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   var contentFile;
-  String _journalPath = 'assets/journal.json';
+  //String _journalPath = 'assets/journal.json';
+  bool isNewContentAvailable = false;
 
   @override
   void initState() {
     super.initState();
 
-    widget.storage.localFile.then(
-      (File file) {
-        // setState(() {
-        //     _journalPath = file.path;
-        // });
+    widget.storage.localFileSizeNonZero.then(
+      (bool nonZeroLen) {
+        setState(() {
+            isNewContentAvailable = nonZeroLen;
+        });
     });
   }
 
@@ -111,7 +118,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: FutureBuilder(
           future: DefaultAssetBundle
             .of(context)
-            .loadString(_journalPath),
+            //TODO: "f you're reading a file that isn't an asset (for example, a file you downloaded to a temporary folder) then it's appropriate to use a File. In that case, make sure that the path is correct. Consider using FutureBuilder instead of the synchronous File APIs, for better performance."
+            .loadString(isNewContentAvailable ? widget.storage.localFile : 'assets/journal.json'),
           builder: (context, snapshot) {
             // Read json-data
             var listData = json.decode(snapshot.data.toString());
@@ -144,16 +152,15 @@ class _MyHomePageState extends State<MyHomePage> {
       // If the call to the server was successful, parse the JSON.
       widget.storage.writeJournal(response.body).then(
         (File file) {
-          setState(() {
-              _journalPath = file.path;
-          });
+          widget.storage.localFileSizeNonZero.then(
+            (bool nonZeroLen) {
+              setState(() {
+                  isNewContentAvailable = nonZeroLen;
+              });
+            }
+          );
         }
       );
-      /*
-      widget.storage.localFile.then(
-        (File file) {
-      });
-      */
     }
   }
 
